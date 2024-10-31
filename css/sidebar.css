@@ -1,0 +1,34 @@
+.sidebar {
+    height: 30%; 
+    font-family: var(--font-family-h);
+    font-size: var(--font-size-menu);
+    background-color: var(--color-bg);
+    justify-content: center; 
+    align-items: center; 
+}
+
+.sidebar ul{
+    display:flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.sidebar ul li {
+    display: inline-block;
+    margin-right: 15px;
+    letter-spacing: 0.04em;
+    height: 50px;
+}
+
+.sidebar ul li:last-child {
+    margin-right: 0px;
+}
+
+.sidebar ul li a {
+    color: var(--color-regular-text);
+}
+
+.sidebar ul li a:hover{
+    color: var(--color-a);
+    text-decoration: underline;
+}

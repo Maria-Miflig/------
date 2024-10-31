@@ -1,0 +1,23 @@
+.art{
+    height: 27.5%;
+    background-color: var(--color-bg);
+    flex-direction: column;
+}
+
+.art h2{
+    text-align: center;
+    color: var(--color-regular-text);
+    font-size: var(--font-size-h2);
+    letter-spacing: 0.04em;
+    font-family: var(--font-family-h);   
+}
+
+.art p{ 
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 0.04em;
+    color: var(--color-regular-text); 
+    font-family: var(--font-family-text);
+    text-align: justify; 
+    font-size: var(--font-size-p);
+}

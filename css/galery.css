@@ -1,0 +1,32 @@
+.galery{
+    height: 72.5%;
+    background-color: var(--color-bg-for-content);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galery h2{
+    text-align: center;
+    color: var(--color-regular-text);
+    font-size: var(--font-size-h2);
+    letter-spacing: 0.04em;
+    font-family: var(--font-family-h);
+}
+
+.galery p{
+    text-align: center;
+    color: var(--color-regular-text);
+    font-size: var(--font-size-text-for-img); 
+    letter-spacing: 0.04em;
+    font-family: var(--font-family-text);
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-left: 15px ;
+}
+
+.galery img{
+    padding: 15px;
+    width: 90%;
+}
+

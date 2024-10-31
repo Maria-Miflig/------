@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter/static/Inter_28pt-BoldItalic.ttf');
+}
+@font-face {
+    font-family: 'Inter_Medium';
+    src: url('Inter/static/Inter_28pt-MediumItalic.ttf');
+}
+
+:root {
+    /* Кольори */
+    --color-bg-for-content:#F3D8CC;
+    --color-bg: #CBD2A7;
+    --color-regular-text: #313E48;
+    --color-a:#CD7476;
+    --color-button: #D9957A;
+    
+    /* Шрифти та їх розміри */
+    --font-family-h:"Inter";
+    --font-family-text: "Inter_Medium"; 
+
+
+    --font-size-h1:74px;
+    --font-size-h3:27px;
+    --font-size-h2: 48px;
+    --font-size-h4: 20px;
+    --font-size-menu: 27px;
+    --font-size-text-for-img: 15px;
+    --font-size-footer: 27px;
+    --font-size-p: 20px;
+
+
+    /* Відступи */
+    --padding-left: 30px; 
+    --padding-left-menu:150px;
+    --padding-menu-text: 50px; 
+}

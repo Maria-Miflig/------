@@ -1,0 +1,36 @@
+.content{
+    background-color: var(--color-bg-for-content);
+}
+
+.content h2{
+    text-align: center;
+    color: var(--color-regular-text);
+    font-size: var(--font-size-h2);
+    letter-spacing: 0.04em;
+    font-family: var(--font-family-h);
+}
+
+.content h3{
+    text-align: center;
+    color: var(--color-regular-text);
+    font-size: var(--font-size-h3);
+    letter-spacing: 0.04em;
+    font-family: var(--font-family-h);
+}
+
+.content p{
+    letter-spacing: 0.04em;
+    color: var(--color-regular-text);
+    font-family: var(--font-family-text);
+    text-align: justify;
+    font-size: var(--font-size-p);
+}
+
+.content a {
+    color: var(--color-regular-text);
+}
+
+.content a:hover{
+    color: var(--color-a);
+    text-decoration: underline;
+}
