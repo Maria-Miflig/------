@@ -21,3 +21,28 @@
     text-align: justify; 
     font-size: var(--font-size-p);
 }
+
+
+@media (max-width: 768px) {
+    .art p{
+        font-size: calc(var(--font-size-p) * 0.8); 
+    }
+}
+
+@media (max-width: 480px) {
+    .art p {
+        font-size: calc(var(--font-size-p) * 0.6); 
+    }
+}
+
+@media (max-width: 768px) {
+    .art h2 {
+        font-size: calc(var(--font-size-h2) * 0.8); 
+    }
+}
+
+@media (max-width: 480px) {
+    .art h2 {
+        font-size: calc(var(--font-size-h2) * 0.6); 
+    }
+}

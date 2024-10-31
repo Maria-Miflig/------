@@ -13,6 +13,7 @@ h1 {
     font-family: var(--font-family-h);
     text-align: center;
     font-size: var(--font-size-h1);
+    
 }
 
 .menu form{
@@ -52,4 +53,3 @@ input {
     text-align: center; 
     border-radius: 4px;
 }
-

@@ -34,3 +34,39 @@
     color: var(--color-a);
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    .content p {
+        font-size: calc(var(--font-size-p) * 0.8); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content p {
+        font-size: calc(var(--font-size-p) * 0.6); 
+    }
+}
+
+@media (max-width: 768px) {
+    .content h2 {
+        font-size: calc(var(--font-size-h2) * 0.8); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content h2 {
+        font-size: calc(var(--font-size-h2) * 0.6); 
+    }
+}
+
+@media (max-width: 768px) {
+    .content h3 {
+        font-size: calc(var(--font-size-h3) * 0.8); 
+    }
+}
+
+@media (max-width: 480px) {
+    .content h3 {
+        font-size: calc(var(--font-size-h3) * 0.6); 
+    }
+}
