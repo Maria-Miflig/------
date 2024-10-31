@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color-bg);
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     justify-content: space-around;
     font-family: var(--font-family-h);
     font-size: var(--font-size-footer);
 }
+
 
 .footer h3{
     flex-direction: column;
